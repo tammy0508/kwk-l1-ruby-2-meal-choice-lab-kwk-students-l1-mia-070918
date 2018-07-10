@@ -22,7 +22,7 @@ end
 dinner("pasta")
 
 def snacks(food="Cheetos")
-  "Any time, is the right time for #{food}!"
+  "Any time, is the right time for #{food.downcase}!"
 end
 
 snacks("swedish fish")
