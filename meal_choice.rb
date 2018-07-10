@@ -21,8 +21,8 @@ end
 
 puts dinner("pasta")
 
-def snacks(food="cheetos")
-  "Any time, is the right time for #{food.downcase}!"
+def snacks(food="Cheetos")
+  "Any time, is the right time for #{food}!"
 end
 
 puts snacks
