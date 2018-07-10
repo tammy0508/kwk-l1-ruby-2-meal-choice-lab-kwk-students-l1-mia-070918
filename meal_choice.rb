@@ -6,7 +6,18 @@ end
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 def breakfast (food2= "Frosted Flakes")
-  puts ""
+  puts "For breakfast #{food2} sounds delicious!"
+end 
+
+breakfast("scrambled eggs")
+
+def lunch (food= "grilled cheese")
+  puts "A great meal for the middle of the day is #{food3}"
+end 
+
+def dinner (food= "salmon")
+  puts "For dinner #{food4} is a good choice!"
+end 
 
 
 
