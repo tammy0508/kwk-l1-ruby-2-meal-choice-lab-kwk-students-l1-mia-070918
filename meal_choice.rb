@@ -9,7 +9,7 @@ end
 
 breakfast("pancakes")
 
-def lunch (food3= "grilled cheese")
+def lunch (food3="grilled cheese")
   puts "A great meal for the middle of the day is #{food3.downcase}"
 end 
 
