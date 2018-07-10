@@ -7,7 +7,7 @@ def breakfast (food2= "Frosted Flakes")
   puts "For breakfast #{food2} sounds delicious!"
 end 
 
-breakfast("scrambled eggs")
+breakfast("pancakes")
 
 def lunch (food3= "grilled cheese")
   puts "A great meal for the middle of the day is #{food3}"
