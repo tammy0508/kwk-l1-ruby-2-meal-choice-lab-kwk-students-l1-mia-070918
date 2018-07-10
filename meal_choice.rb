@@ -4,25 +4,25 @@
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them. If nothing is passed in, it shoud default to the foods on the readme (frosted flake, grilled cheese, salmon)
 
 def breakfast(food2="Frosted Flakes")
-  puts "For breakfast #{food2} sounds delicious!"
+  puts "For breakfast #{food2.downcase} sounds delicious!"
 end 
 
 breakfast("pancakes")
 
 def lunch (food3="grilled cheese")
-  puts "A great meal for the middle of the day is #{food3}"
+  puts "A great meal for the middle of the day is #{food3.downcase}"
 end 
 
 lunch("a chicken sandwhich")
 
 def dinner (food4="salmon")
-  puts "For dinner #{food4} is a good choice!"
+  puts "For dinner #{food4.downcase} is a good choice!"
 end 
 
 dinner("pasta")
 
 def snacks(food="cheetos")
-  "Any time, is the right time for #{food}!"
+  "Any time, is the right time for #{food.downcase}!"
 end
 
 snacks
