@@ -11,13 +11,13 @@ end
 
 breakfast("scrambled eggs")
 
-def lunch (food= "grilled cheese")
+def lunch (food3= "grilled cheese")
   puts "A great meal for the middle of the day is #{food3}"
 end 
 
 lunch
 
-def dinner (food= "salmon")
+def dinner (food4= "salmon")
   puts "For dinner #{food4} is a good choice!"
 end 
 
